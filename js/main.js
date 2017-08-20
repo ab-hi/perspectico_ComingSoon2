@@ -18,18 +18,6 @@
         $("#preloader").delay(300).fadeOut("slow");
 
       });   
-var c=0;
-
-    	    		$('html').css('background-image', 'url("images/bg'+c+'.jpeg")');
-
-
-    	$('.change-bg').click(function(){
-    		c+=1;
-    		if(c>5)
-    			{c=0;}
-    		$('html').css('background-image', 'url("images/bg'+c+'.jpeg")');
-    	});
-
   	});
 
    /*---------------------------------------------------- */
